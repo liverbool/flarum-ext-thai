@@ -1,0 +1,12 @@
+flarum-best-answer:
+    admin:
+        permissions:
+            best_answer: => flarum-best-answer.ref.best_answer
+    forum:
+        this_best_answer: "นี่เป็นคำตอบที่ดีที่สุด"
+        remove_best_answer: "ยกเลิกเป็นคำตอบที่ดีที่สุด"
+        header_best_answer: "ให้ความเห็นของผู้โพสเป็นคำตอบที่ดีที่สุด"
+        best_answer_button: => flarum-best-answer.ref.best_answer
+        best_answer: => flarum-best-answer.ref.best_answer
+    ref:
+      best_answer: 'เป็นคำตอบที่ดีที่สุด'

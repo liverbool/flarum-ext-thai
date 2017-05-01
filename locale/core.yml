@@ -278,8 +278,8 @@ core:
       latest_button: อัปเดทล่าสุด
       newest_button: โพสใหม่
       oldest_button: โพสเก่า
-      relevance_button: Relevance
-      top_button: บน
+      relevance_button: การมีส่วนร่วม
+      top_button: ยอดนิยม
 
     # These translations are used in the Log In modal dialog.
     log_in:

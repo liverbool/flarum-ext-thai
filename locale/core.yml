@@ -341,8 +341,8 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: เว็บ
-      notify_discussion_renamed_label: อนุญาตให้คนอื่นเปลี่ยนหัวข้อกระทู้ที่คุณตั้งได้
-      privacy_disclose_online_label: อนุญาติให้คนอื่นเห็นว่าคุณกำลังออนไลน์อยู่
+      notify_discussion_renamed_label: มีบางคนเปลี่ยนหัวข้อกระทู้ที่คุณตั้ง
+      privacy_disclose_online_label: อนุญาตให้คนอื่นเห็นว่าคุณกำลังออนไลน์อยู่
       privacy_heading: ความเป็นส่วนตัว
       title: => core.ref.settings
 

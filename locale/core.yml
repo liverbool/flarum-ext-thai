@@ -220,7 +220,7 @@ core:
       cannot_reply_button: ไม่สามารถแสดงความเห็น
       cannot_reply_text: คุณยังไม่มีสิทธิ์ในการแสดงความเห็นสำหรับโพสนี้
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "คุณแน่ในหรือไม่ว่าต้องการลบโพสนี้?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: เข้าระบบเพื่อตอบกลับ
       rename_button: เปลี่ยนชื่อ
@@ -230,11 +230,11 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks like there are no discussions here.
+      empty_text: ยังไม่มีการโพสอะไรในนี้
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      mark_as_read_tooltip: ทำเครื่องหมายอ่านแล้ว
+      replied_text: "{username} ตอบกลับ {ago}"
+      started_text: "{username} โพสเมื่อ {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -259,18 +259,18 @@ core:
       admin_button: Administration
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: โปรไฟล์
+      search_placeholder: ค้นหา
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: ไม่สามารถโพสได้
+      mark_all_as_read_confirmation: "คุณแน่ใจหรือไม่ว่าต้องการทำเครื่องหมายอ่านแล้วทั้งหมด?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: โหลดใหม่
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
@@ -293,8 +293,8 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} เปลี่ยนหัวข้อโพส"
+      empty_text: ไม่มีข้อความแจ้งเตือน
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -302,8 +302,8 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: ถูกแก้ไข
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_tooltip: "{username} แก้ไขเมื่อ {ago}"
+      number_tooltip: "โพส #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -314,15 +314,15 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: เดี๋ยวนี้
+      original_post_link: โพสเดิม
+      unread_text: "ยังไม่อ่าน {count}"
+      viewing_text: "{index} จาก {count} รายการ|{index} of {count} รายการ"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'หัวข้อเก่าคือ: "{old}"'
+      discussion_renamed_text: "{username} ได้เปลี่ยนหัวข้อเป็น {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} later"
@@ -331,19 +331,19 @@ core:
     search:
       all_discussions_button: 'Search all discussions for "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: ผู้ใช้
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: บัญชีผู้ใช้
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_by_web_heading: เว็บ
+      notify_discussion_renamed_label: อนุญาตให้คนอื่นเปลี่ยนหัวข้อกระทู้ที่คุณตั้งได้
+      privacy_disclose_online_label: อนุญาติให้คนอื่นเห็นว่าคุณกำลังออนไลน์อยู่
+      privacy_heading: ความเป็นส่วนตัว
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
@@ -355,25 +355,25 @@ core:
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "ยินดีต้อนรับ, {username} :D"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
-      bio_placeholder: Write something about yourself
+      avatar_remove_button: ลบ
+      avatar_upload_button: อัปโหลด
+      avatar_upload_tooltip: อัปโหลดภาพโปรไฟล์ใหม่
+      bio_placeholder: เขียนข้ออะไรเกี่ยวกับตัวคุณ ให้ผู้ใช้รายอื่นรู้จักคุณมากขึ้น
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
+      in_discussion_text: "ใน {discussion}"
+      joined_date_text: "เข้าร่วมเมื่อ {ago}"
+      online_text: ออนไลน์
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posts
+      posts_link: โพสทั้งหมด
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: การควบคุม
       delete_button: => core.ref.delete
       delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
       edit_button: => core.ref.edit
@@ -389,7 +389,7 @@ core:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: ซ่อน
 
     # These translations are used to modify usernames.
     username:
@@ -397,10 +397,10 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "โอ๊ะโอ่! มีบางอย่างผิดพลาด ลองโหลดหน้าเว็บใหม่อีกครั้ง"
+      not_found_message: ไม่พบข้อมูลที่คุณกำลังเข้าถึง
+      permission_denied_message: คุณไม่มีสิทธิ์ในการทำสิ่งนี้
+      rate_limit_exceeded_message: ดูเหมือนคุณจะโพสหัวข้อใหม่เร็วเกินไป รออีกซักหน่อยแล้วลองโพสอีกครั้ง
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -410,22 +410,22 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, และ {third}"
+      two_text: "{first} และ {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
+      javascript_disabled_message: เว็บไซต์นี้ต้องการใช้งานจาวาสคริปท์เพื่อเปิดดูข้อมูล
       load_error_message: Something went wrong while trying to load the full version of this site.
-      loading_text: Loading...
+      loading_text: กำลังโหลด...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: หน้าที่แล้ว
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -511,7 +511,7 @@ core:
     save_changes: บันทึกการเปลี่ยนแปลง                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: กำหนดค่า
     sign_up: สมัครสมาชิก
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} รายการ|{count} รายการ"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: โพสข้อความ
     username: ชื่อผู้ใช้
     write_a_reply: แสดงความเห็น...
